@@ -1,28 +1,54 @@
-import React from 'react';
+import React from 'react'
 
-export default function ExperienceTimeline() {
+const Experience = () => {
   return (
-    <div className="bg-zinc-900 text-white p-6 font-sans">
-      <h2 className="text-2xl font-bold mb-4">Experiencia</h2>
-      <div className="relative border-l border-blue-500 pl-6 space-y-8">
-        <div className="relative">
-          <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-[22px] top-1.5"></div>
-          <div className="mb-1 text-sm text-gray-400">Mar. 2024 - Actualidad · 3 Meses</div>
-          <div className="mb-1 text-sm text-gray-400">Toronto, Canada · Remoto</div>
-          <h3 className="text-lg font-semibold">Front-End Developer – SoundAdvice</h3>
+    <section>
+<ol className="items-center sm:flex">
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="z-10 flex items-center justify-center w-6 h-6 -100 rounded-full ring-0 bg-zinc-800 shrink-0">
+                <svg className="w-2.5 h-2.5 text-[#ccc]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">  
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                </svg>
+            </div>
         </div>
-        <div className="relative">
-          <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-[22px] top-1.5"></div>
-          <div className="mb-1 text-sm text-gray-400">Jul. 2023 - Feb. 2024 · 8 Meses</div>
-          <div className="mb-1 text-sm text-gray-400">Bogotá, Colombia · Remoto</div>
-          <h3 className="text-lg font-semibold mb-2">Front-End Developer – Qantto, LLC</h3>
-          <p className="text-sm text-gray-400">
-            Responsable del diseño y desarrollo Front-end de una herramienta de automatización de cotizaciones
-            para empresas globales. Lanzamos con éxito el producto (SaaS), superando las expectativas del cliente y
-            mejorando la eficiencia de cotizaciones.
-          </p>
+        <div className="mt-3 sm:pe-8">
+            <h3 className="text-lg font-semibold text-white">Bachelor's degree in computer science.</h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-[#ccc] opacity-50">March. 18 - December. 23</time>
+            <p className="text-base font-normal text-[#ccc]">Get started with dozens of web components and interactive elements.</p>
         </div>
-      </div>
-    </div>
-  );
+    </li>
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="z-10 flex items-center justify-center w-6 h-6 -100 rounded-full ring-0 bg-zinc-800 shrink-0">
+                <svg className="w-2.5 h-2.5 text-[#ccc]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">  
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                </svg>
+            </div>
+        </div>
+        <div className="mt-3 sm:pe-8">
+            <h3 className="text-lg font-semibold text-white">Technical degree in software development.</h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-[#ccc] opacity-50">August. 24 - In process.</time>
+            <p className="text-base font-normal text-[#ccc]">Get started with dozens of web components and interactive elements.</p>
+        </div>
+    </li>
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="z-10 flex items-center justify-center w-6 h-6 -100 rounded-full ring-0 bg-zinc-800 shrink-0">
+                <svg className="w-2.5 h-2.5 text-[#ccc]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">  
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                </svg>
+            </div>
+        </div>
+        <div className="mt-3 sm:pe-8">
+            <h3 className="text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-[#ccc] opacity-50">Released on December 2, 2021</time>
+            <p className="text-base font-normal text-[#ccc]">Get started with dozens of web components and interactive elements.</p>
+        </div>
+    </li>
+</ol>
+</section>
+  )
 }
+
+export default Experience
