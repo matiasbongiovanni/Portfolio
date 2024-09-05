@@ -13,9 +13,9 @@ const Home = () => {
       <p className='text-lg font-medium text-center pt-2 pb-5'>Front-End Developer</p>
       <button className='flex mx-auto bg-[#ccc] text-[#161616] font-bold p-2 rounded cursor-pointer'>Download Cv</button>
       <div className="flex justify-evenly pt-40 p-3 gap-5 text-2xl text-[#ccc]">
-      <a href="#"><FaLinkedin /></a>
-      <a href="#"><FaGithub /></a>
-      <a href="mailto:matiasweschta@gmail.com"><MdEmail /></a>
+      <a href="https://www.linkedin.com/in/matiasbongiovanni/" target='_blank' rel='noopener noreferrer'><FaLinkedin /></a>
+      <a href="https://www.github.com/matiasbongiovanni" target='_blank' rel='noopener noreferrer'><FaGithub /></a>
+      <a href="mailto:matiasweschta@gmail.com" target='_blank' rel='noopener noreferrer'><MdEmail /></a>
       </div>
     </main>
     </>
