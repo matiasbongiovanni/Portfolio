@@ -15,7 +15,7 @@ const Experience = () => {
         <div className="mt-3 sm:pe-8">
             <h4 className="text-lg font-semibold text-white">Bachelor's degree in computer science.</h4>
             <time className="block mb-2 text-sm font-normal leading-none text-[#ccc] opacity-50">March. 18 - December. 23</time>
-            <p className="text-base font-normal text-[#ccc]">Get started with dozens of web components and interactive elements.</p>
+            <p className="text-sm text-balance font-normal text-[#ccc]">During my Bachelor's, I gained a strong foundation in programming, web development, and software architecture, applying modern technologies in practical projects.</p>
         </div>
     </li>
     <li className="relative mb-6 sm:mb-0">
@@ -29,7 +29,7 @@ const Experience = () => {
         <div className="mt-3 sm:pe-8">
             <h4 className="text-lg font-semibold text-white">Technical degree in software development.</h4>
             <time className="block mb-2 text-sm font-normal leading-none text-[#ccc] opacity-50">August. 24 - In process.</time>
-            <p className="text-base font-normal text-[#ccc]">Get started with dozens of web components and interactive elements.</p>
+            <p className="text-sm text-balance font-normal text-[#ccc]">I am currently expanding my knowledge in software development with a focus on agile methodologies and best programming practices.</p>
         </div>
     </li>
     <hr className='opacity-50'/>
