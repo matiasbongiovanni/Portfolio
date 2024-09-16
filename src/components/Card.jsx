@@ -32,10 +32,10 @@ export default function Card() {
         {projects.map((project, index) => (
           <div key={index} className="bg-zinc-800 p-4 rounded-lg shadow-md">
             <div className="flex items-center justify-between mb-2">
-              <a href={project.Demo} target='_blank' className='cursor-pointer underline'><h4 className="text-xl font-semibold">{project.Title}</h4></a>
+              <a href={project.Demo} target='_blank' className='cursor-pointer underline hover:opacity-50'><h4 className="text-xl font-semibold">{project.Title}</h4></a>
               {project.Repository && (
                 <a href={project.Repository} target="_blank" rel="noopener noreferrer">
-                  <ArrowUpRight className="w-5 h-5" />
+                  <ArrowUpRight className="w-5 h-5 hover:w-6 hover:h-6 hover:opacity-50" />
                 </a>
               )}
             </div>

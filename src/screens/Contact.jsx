@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <section className='h-full bg-[#161616] text-[#ccc]' id='Contact'>
         <h3 className='text-3xl text-center font-bold text-[#ccc] pt-5'>Contact Me</h3>
-        <p className='text-[#ccc] text-center pt-2 opacity-65'>Complete the form to contact you.</p>
-        <form className='w-1/3 flex flex-col p-3 mx-auto' action='https://docs.google.com/forms/d/e/1FAIpQLSdQM98IyPsM3raL-ddBeU0jURVxDA2iZTmYaBC7wirVITV9eA/formResponse?submit=Submit&usp=pp_url'>
+        <p className='text-[#ccc] text-center pt-2 opacity-65 text-balance'>If you want to build a product with me, schedule a call.</p>
+        <form className='w-full sm:w-1/2 flex flex-col p-3 mx-auto' action='https://docs.google.com/forms/d/e/1FAIpQLSdQM98IyPsM3raL-ddBeU0jURVxDA2iZTmYaBC7wirVITV9eA/formResponse?submit=Submit&usp=pp_url'>
     <div className="p-2 w-full">
       <div className="relative">
         <label htmlFor="name" className="leading-7 py-4 text-lg text-[#ccc]">
