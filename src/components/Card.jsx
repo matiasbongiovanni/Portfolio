@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowUpRight } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 
 export default function Card() {
   const [projects, setProjects] = useState([]);
@@ -35,7 +35,7 @@ export default function Card() {
               <a href={project.Demo} target='_blank' className='cursor-pointer underline hover:opacity-50'><h4 className="text-xl font-semibold">{project.Title}</h4></a>
               {project.Repository && (
                 <a href={project.Repository} target="_blank" rel="noopener noreferrer">
-                  <ArrowUpRight className="w-5 h-5 hover:w-6 hover:h-6 hover:opacity-50" />
+                  <FaGithub className="w-5 h-5 hover:opacity-50" />
                 </a>
               )}
             </div>
