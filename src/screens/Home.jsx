@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import Cv from '../assets/cv.pdf'
+import Cv from '../assets/Cv.pdf'
 
 
 const Home = () => {
