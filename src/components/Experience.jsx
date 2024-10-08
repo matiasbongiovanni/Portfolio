@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <section>
+    <section className='max-w-[1200px] mx-auto'>
 <ol className="items-center sm:flex justify-center p-3">
     <li className="relative mb-6 sm:mb-0">
         <div className="flex items-center">
