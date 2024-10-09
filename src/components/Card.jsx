@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export default function Card() {
   const [projects, setProjects] = useState([]);
@@ -27,29 +28,36 @@ export default function Card() {
   }, []);
 
   return (
-    <section className="bg-zinc-900 text-white p-4 rounded-lg max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <section className='max-w-[1200px] mx-auto flex justify-center pt-0 p-5'>
+      <ol className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 p-5">
         {projects.map((project, index) => (
-          <div key={index} className="bg-zinc-800 p-4 rounded-lg shadow-md">
-            <div className="flex items-center justify-between mb-2">
-              <a href={project.Demo} target='_blank' className='cursor-pointer underline hover:opacity-50'><h4 className="text-xl font-semibold">{project.Title}</h4></a>
+          <li key={index} className="relative mb-6 sm:mb-0 bg-zinc-900 rounded-lg p-5 shadow-lg">
+            <div className="flex items-center justify-between">
+              <h4 className="text-xl font-semibold text-white">{project.Title}</h4>
+            <div className="flex gap-3">
+              <a href={project.Demo} target='_blank' className='cursor-pointer hover:opacity-50'>
+                <FaArrowUpRightFromSquare className="w-5 h-5 text-[#ccc] hover:opacity-50" />  
+              </a>
               {project.Repository && (
                 <a href={project.Repository} target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="w-5 h-5 hover:opacity-50" />
+                  <FaGithub className="w-5 h-5 text-[#ccc] hover:opacity-50" />
                 </a>
               )}
             </div>
-            <p className="text-sm text-[#ccc] mb-4">{project.Description}</p>
-            <div className="flex flex-wrap gap-2">
-              {project.Technologies.split(';').map((tech, index) => (
-                <span key={index} className="px-2 py-1 bg-zinc-700 rounded text-xs">
-                  {tech}
-                </span>
-              ))}
             </div>
-          </div>
+            <div className="mt-3 sm:pe-8">
+              <p className="block mb-3 mt-3 text-sm leading-none text-[#ccc] opacity-50">{project.Description}</p>
+              <div className="flex flex-wrap gap-2">
+                {project.Technologies.split(';').map((tech, index) => (
+                  <span key={index} className="px-2 py-1 text-[#ccc] bg-zinc-800 rounded text-xs">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </li>
         ))}
-      </div>
+      </ol>
     </section>
   );
 }
