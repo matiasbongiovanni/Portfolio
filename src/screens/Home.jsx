@@ -3,7 +3,7 @@ import Nav from '../components/Nav'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Cv from '../assets/Cv.pdf'
-import AnimatedArrow from '../components/Animated-arrow'
+import Arrow from '../components/Arrow'
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       <a href="https://www.github.com/matiasbongiovanni" target='_blank' rel='noopener noreferrer'><FaGithub /></a>
       <a href="mailto:matiasweschta@gmail.com" target='_blank' rel='noopener noreferrer'><MdEmail /></a>
       </div>
-      <AnimatedArrow />
+      <Arrow />
     </section>
     </>
   )

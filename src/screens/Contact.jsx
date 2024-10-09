@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -64,11 +62,6 @@ const Contact = () => {
       </div>
     </div>
   </form>
-  <div className="flex justify-evenly p-3 gap-5 text-xl text-[#ccc]">
-      <a href="https://www.linkedin.com/in/matiasbongiovanni/" target='_blank' rel='noopener noreferrer'><FaLinkedin /></a>
-      <a href="https://www.github.com/matiasbongiovanni" target='_blank' rel='noopener noreferrer'><FaGithub /></a>
-      <a href="mailto:matiasweschta@gmail.com" target='_blank' rel='noopener noreferrer'><MdEmail /></a>
-      </div>
     </section>
   )
 }
