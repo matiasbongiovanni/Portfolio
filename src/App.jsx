@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <>
-    <Home />
-    <Projects />
-    <AboutMe />
-    <Contact />
-    <Footer />
-    </>
+    <main>
+      <Home />
+      <Projects />
+      <AboutMe />
+      <Contact />
+      <Footer />
+    </main>
   )
 }
