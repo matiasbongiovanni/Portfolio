@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='h-full text-[#ccc]' id='Contact'>
+    <section className='h-full pt-60 text-[#ccc]' id='Contact'>
         <h3 className='text-3xl text-center font-bold text-[#ccc] pt-5'>Contact Me</h3>
         <p className='text-[#ccc] text-center pt-2 opacity-65 text-balance'>If you want to build a product with me, schedule a call.</p>
         <form className='w-full sm:w-1/2 flex flex-col p-3 mx-auto' action='https://docs.google.com/forms/d/e/1FAIpQLSdQM98IyPsM3raL-ddBeU0jURVxDA2iZTmYaBC7wirVITV9eA/formResponse?submit=Submit&usp=pp_url'>
