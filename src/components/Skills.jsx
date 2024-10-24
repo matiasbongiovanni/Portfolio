@@ -5,6 +5,7 @@ import TailwindCSS from '../assets/tailwind.svg'
 import Git from '../assets/git.svg'
 import Github from '../assets/github.svg'
 import JavaScript from '../assets/javascript.svg'
+import Supabase from '../assets/supabase.svg'
 
 const Skills = () => {
   return (
@@ -16,6 +17,7 @@ const Skills = () => {
             <img src={JavaScript} alt="" className='h-10 w-10'/>
             <img src={Git} alt="" className='h-10 w-10'/>
             <img src={Github} alt="" className='h-10 w-10'/>
+            <img src={Supabase} alt="" className='h-10 w-10'/>
         </div>
     </section>
   )
